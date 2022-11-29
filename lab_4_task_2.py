@@ -3,8 +3,9 @@ a = np.arange(11)
 print(a)
 
 def my_func(a):
-    for c in range:
-    a[0] * a[1] = a1
-    
+    c = 1
+    for i in a:
+        c = i * c
+        print(c)
 
 my_func(a)
