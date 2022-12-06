@@ -1,18 +1,15 @@
-import numpy as np
+def area(*arg, **kw):
+    if kw['figure'] == 'square':
+        s = arg[0] ** 2
+    elif kw['figure'] == 'rectangle':
+         s = arg[0] * arg[1]
+    else:
+        s = 1 / 2 * arg[0] * arg[1]
+    print(s)
 
-def square(x, r, h, c, a, b):
-    if x == 0:
-        s =  np.pi * r ** 2
-        print(s)
-    elif x == 3:
-        s = 0.5 * h * c
-        print(s)
-    elif x == 4:
-        s = a * b
-        print(s)
-      
-square(3, 0, 8, 4, 0, 0)
-        
+area (2, 5, 7, 8, figure = 'rectangle')
+
+
 
 
 
