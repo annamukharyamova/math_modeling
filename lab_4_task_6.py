@@ -4,4 +4,4 @@ def step(a, n):
         a * a1 == a2
         a2 == a1 
          
-step(2, 6)
+step(2, 6)  
