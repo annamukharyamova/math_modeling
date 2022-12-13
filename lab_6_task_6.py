@@ -13,4 +13,4 @@ def ellips(p, e):
     plt.axis('equal')
     plt.savefig('pic_6.png')
 
-ellips(10, 0.5)
+ellips(10, 0.5)  
