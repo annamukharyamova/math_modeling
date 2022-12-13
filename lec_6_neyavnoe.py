@@ -11,6 +11,6 @@ def circle_plotter(radius=10):
 
     plt.contour(X, Y, fxy, levels=[radius**2])
     plt.axis('equal')
-    plt.savefig('pic_1.png')
+    plt.savefig('pic_02.png')
 
 circle_plotter()

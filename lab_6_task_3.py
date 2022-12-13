@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def ellips_plotter(a, b):
-    x = np.arange(-2*radius, 2*radius, 0.1)
-    y = np.arange(-2*radius, 2*radius, 0.1)
+    x = np.arange(-2, 2, 0.1)
+    y = np.arange(-2, 2, 0.1)
 
     X, Y = np.meshgrid(x, y)
 
@@ -11,6 +11,6 @@ def ellips_plotter(a, b):
 
     plt.contour(X, Y, fxy)
     plt.axis('equal')
-    plt.savefig('pic_1.png')
+    plt.savefig('pic_3.png')
 
 ellips_plotter(2, 3)
